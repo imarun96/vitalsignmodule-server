@@ -1,0 +1,6 @@
+vital:
+    sign:
+        url: http://localhost:9098/getRecordWithDate
+logging:
+    file:
+        name: D:/Downloads/ELK/logs/patient-record-module.log
