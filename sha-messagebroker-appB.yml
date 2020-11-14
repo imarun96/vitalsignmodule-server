@@ -1,11 +1,11 @@
 server:
     port: 7002
 aws:
-  accessKey: AKIA55C6QLOZO62NMJP3
-  secretKey: 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
-  region: ap_south_1
+  accessKey: AKIA32E6HVBN2X2PUJ7H
+  secretKey: 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
+  region: us-east-2
   sqsQueue: sha-messagebroker-appA
-  endpoint: https://sqs.ap-south-1.amazonaws.com/955828427698/sha-messagebroker-appB
+  endpoint: https://sqs.us-east-2.amazonaws.com/812080670811/sha-messagebroker-appB
 activeMQ:
   brokerURL: tcp://localhost:61616
   uname: admin
