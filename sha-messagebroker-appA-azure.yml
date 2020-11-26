@@ -15,3 +15,5 @@ logging:
                     EC2MetadataUtils: error
 azure:
   queueName: living-goods-queue
+server:
+  port: 8080
