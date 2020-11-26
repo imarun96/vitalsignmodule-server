@@ -23,4 +23,6 @@ logging:
         com:
             amazonaws:
                 util:
-                    EC2MetadataUtils: error      
+                    EC2MetadataUtils: error
+server:
+  port: 8081
