@@ -1,0 +1,27 @@
+ 
+aws:
+  sqsQueue: sha-messagebroker-appB
+activeMQ:
+  brokerURL: tcp://localhost:61616
+  uname: admin
+  password: admin
+  queueName: sha-messagebroker-appA
+  targetQueue: sha-messagebroker-appB
+spring:
+    activemq:
+        in-memory: false
+        packages:
+            trust-all: true
+    jms:
+      servicebus:
+        connection-string: Endpoint=sb://living-goods-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=e7TD4p5jcSlkpt9ozmj9UO/UYsrpj231wPAC0tJXyuA=
+    autoconfigure:
+      exclude:
+      -   org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration
+      -   org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration
+logging:
+    level:
+        com:
+            amazonaws:
+                util:
+                    EC2MetadataUtils: error
