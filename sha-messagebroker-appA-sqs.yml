@@ -20,3 +20,5 @@ logging:
             amazonaws:
                 util:
                     EC2MetadataUtils: error
+server:
+  port: 8080
