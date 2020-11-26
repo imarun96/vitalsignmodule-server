@@ -1,0 +1,22 @@
+aws:
+  accessKey: AKIAY4KLTLUVSYB7WXEN
+  secretKey: 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
+  region: us-east-2
+  sqsQueue: sha-messagebroker-appB
+  endpoint: https://sqs.us-east-2.amazonaws.com/610580782379/sha-messagebroker-appA
+sqs:
+  queueName: sha-messagebroker-appA
+spring:
+    jms:
+      servicebus:
+        connection-string: Endpoint=sb://living-goods-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=e7TD4p5jcSlkpt9ozmj9UO/UYsrpj231wPAC0tJXyuA=
+    autoconfigure:
+      exclude:
+      -   org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration
+      -   org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration
+logging:
+    level:
+        com:
+            amazonaws:
+                util:
+                    EC2MetadataUtils: error
