@@ -1,7 +1,7 @@
 spring:
     jms:
       servicebus:
-        connection-string: Endpoint=sb://living-goods-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=e7TD4p5jcSlkpt9ozmj9UO/UYsrpj231wPAC0tJXyuA=
+        connection-string: Endpoint=sb://living-goods-service-bus.servicebus.windows.net/;SharedAccessKeyName=lg-sample-key;SharedAccessKey=Tz6KSFl7iJoCh70VPuR50Lp/JGuh9ORbmO3P3xsQ/QE=;EntityPath=living-goods-queue
     autoconfigure:
       exclude:
       -   org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration
