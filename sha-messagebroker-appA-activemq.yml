@@ -1,4 +1,3 @@
- 
 aws:
   sqsQueue: sha-messagebroker-appB
 activeMQ:
@@ -27,3 +26,8 @@ logging:
                     EC2MetadataUtils: error
 server:
   port: 8080
+couchdb:
+  url: https://smarthealth-subhi-test.lg-apps.com/
+  username: subhi
+  password: C7KrKxFfu3uUy2Kw
+  database: medic
