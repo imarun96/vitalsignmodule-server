@@ -1,4 +1,3 @@
-
 spring:
     jms:
       servicebus:
@@ -17,3 +16,8 @@ azure:
   queueName: living-goods-queue
 server:
   port: 8080
+couchdb:
+  url: https://smarthealth-subhi-test.lg-apps.com/
+  username: subhi
+  password: C7KrKxFfu3uUy2Kw
+  database: medic
