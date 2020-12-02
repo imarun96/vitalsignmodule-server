@@ -21,3 +21,6 @@ couchdb:
   username: subhi
   password: C7KrKxFfu3uUy2Kw
   database: medic
+openmrs:
+  openMRSUname: admin
+  openMRSPassword: Admin123
