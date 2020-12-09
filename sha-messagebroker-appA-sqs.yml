@@ -2,10 +2,9 @@ aws:
   accessKey: AKIAY4KLTLUVSYB7WXEN
   secretKey: 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
   region: us-east-2
-  sqsQueue: sha-messagebroker-appB
+  listenerQueue: sha-messagebroker-appB
   endpoint: https://sqs.us-east-2.amazonaws.com/610580782379/sha-messagebroker-appA
-sqs:
-  queueName: sha-messagebroker-appA
+  producerQueue: sha-messagebroker-appA
 spring:
     jms:
       servicebus:
