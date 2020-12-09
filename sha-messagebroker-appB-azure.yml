@@ -24,3 +24,7 @@ couchdb:
 openmrs:
   openMRSUname: admin
   openMRSPassword: Admin123
+dhis2:
+  uname: admin
+  password: district
+  url: https://dhis2.livinggoods.net/
