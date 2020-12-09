@@ -1,9 +1,9 @@
 aws:
-  accessKey: AKIAY4KLTLUVSYB7WXEN
-  secretKey: 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
+  accessKey: AKIA32E6HVBNRUYJB2U2
+  secretKey: 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
   region: us-east-2
   listenerQueue: sha-messagebroker-appA
-  endpoint: https://sqs.us-east-2.amazonaws.com/610580782379/sha-messagebroker-appB
+  endpoint: https://sqs.us-east-2.amazonaws.com/812080670811/sha-messagebroker-appB
   producerQueue: sha-messagebroker-appB
 spring:
     jms:
