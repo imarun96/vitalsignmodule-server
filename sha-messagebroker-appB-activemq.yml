@@ -1,5 +1,3 @@
-aws:
-  sqsQueue: sha-messagebroker-appA
 activeMQ:
   brokerURL: tcp://localhost:61616
   uname: admin
