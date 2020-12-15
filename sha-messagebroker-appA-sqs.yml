@@ -2,7 +2,6 @@ aws:
   accessKey: AKIA32E6HVBNRUYJB2U2
   secretKey: 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
   region: us-east-2
-  endpoint: https://sqs.us-east-2.amazonaws.com/812080670811/sha-messagebroker-appA
   dhis2Queue: lg-appA-dhis2Queue
   openMRSQueue: lg-appA-openMRSQueue
   targetOpenMRSQueue: lg-appB-openMRSQueue
