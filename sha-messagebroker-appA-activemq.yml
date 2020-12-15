@@ -2,8 +2,10 @@ activeMQ:
   brokerURL: tcp://localhost:61616
   uname: admin
   password: admin
-  queueName: sha-messagebroker-appA
-  targetQueue: sha-messagebroker-appB
+  dhis2Queue: lg-appB-dhis2Queue
+  openMRSQueue: lg-appB-openMRSQueue
+  targetDHIS2Queue: lg-appA-dhis2Queue
+  targetOpenMRSQueue: lg-appA-openMRSQueue
 spring:
     activemq:
         in-memory: false

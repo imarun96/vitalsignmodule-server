@@ -2,9 +2,11 @@ aws:
   accessKey: AKIA32E6HVBNRUYJB2U2
   secretKey: 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
   region: us-east-2
-  listenerQueue: sha-messagebroker-appB
   endpoint: https://sqs.us-east-2.amazonaws.com/812080670811/sha-messagebroker-appA
-  producerQueue: sha-messagebroker-appA
+  dhis2Queue: lg-appA-dhis2Queue
+  openMRSQueue: lg-appA-openMRSQueue
+  targetOpenMRSQueue: lg-appB-openMRSQueue
+  targetDHIS2Queue: lg-appB-dhis2Queue
 spring:
     jms:
       servicebus:

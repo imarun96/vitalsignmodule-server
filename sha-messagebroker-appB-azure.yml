@@ -13,7 +13,10 @@ logging:
                 util:
                     EC2MetadataUtils: error
 azure:
-  queueName: living-goods-queue
+  openMRSQueue: lg-appB-openMRSQueue
+  dhis2Queue: lg-appB-dhis2Queue
+  targetDHIS2Queue: lg-appA-dhis2Queue
+  targetOpenMRSQueue: lg-appA-openMRSQueue
 server:
   port: 8081
 couchdb:
