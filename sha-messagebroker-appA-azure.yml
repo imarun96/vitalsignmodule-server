@@ -18,7 +18,7 @@ azure:
   targetDHIS2Queue: lg-appb-dhis2Queue
   targetOpenMRSQueue: lg-appb-openMRSQueue
 server:
-  port: 8080
+  port: 8081
 couchdb:
   url: https://smarthealth-subhi-test.lg-apps.com/
   username: subhi
