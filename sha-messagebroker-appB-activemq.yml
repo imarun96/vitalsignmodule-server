@@ -25,7 +25,7 @@ logging:
                 util:
                     EC2MetadataUtils: error
 server:
-  port: 8080
+  port: 8083
 couchdb:
   url: https://smarthealth-subhi-test.lg-apps.com/
   username: subhi
