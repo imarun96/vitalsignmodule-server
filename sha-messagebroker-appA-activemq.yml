@@ -1,6 +1,6 @@
 activeMQ:
   brokerURL: tcp://localhost:61616
-  uname: admin
+  uname: admin1
   password: admin
   dhis2Queue: lg-appB-dhis2Queue
   openMRSQueue: lg-appB-openMRSQueue
