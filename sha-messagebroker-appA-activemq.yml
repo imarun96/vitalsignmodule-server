@@ -28,8 +28,8 @@ server:
   port: 8080
 couchdb:
   url: https://smarthealth-subhi-test.lg-apps.com/
-  username: subhi
-  password: C7KrKxFfu3uUy2Kw
+  username: medic
+  password: c40f41f136a6cdffcgj
   database: medic
 openmrs:
   openMRSUname: admin
